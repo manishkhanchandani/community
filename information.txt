@@ -1,0 +1,25 @@
+npx create-react-app my-app --template typescript
+
+yarn add @mui/material @emotion/react @emotion/styled @fontsource/roboto @mui/icons-material jotai sass parse react-router-dom moment lodash immer
+
+yarn add -D @types/react-router-dom @types/lodash
+
+
+A. Router, - different pages and create route.
+
+react-router-dom
+
+B. Context Api using useReducer
+
+C. Material UI
+
+
+Community:
+    For example
+
+        Be Vegan
+
+            Follow
+
+            Task 1 - done, watch this vegan video
+            Task 2 - talk with your minister to promote vegan world
