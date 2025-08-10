@@ -4,6 +4,8 @@ yarn add @mui/material @emotion/react @emotion/styled @fontsource/roboto @mui/ic
 
 yarn add -D @types/react-router-dom @types/lodash
 
+npm install uuid; npm install --save-dev @types/uuid
+
 
 A. Router, - different pages and create route.
 
@@ -23,3 +25,39 @@ Community:
 
             Task 1 - done, watch this vegan video
             Task 2 - talk with your minister to promote vegan world
+
+Create an application in react js using material ui, and context api with useReducer, save all information in the state context api, following following guidelines to build my application:
+
+1. Use material ui.
+2. context api with useReducer.
+3. Build Crud operation on Community App with following fields: title, description, created by, createdAt, updatedAt, approvedByAdmin (boolean), isActive (boolean)
+
+
+
+Immer library for faster performance
+
+
+Index
+    App
+        Routing (wrapped by context api)
+
+    Context Api
+        state, dispatch
+
+        initial state, 
+
+            dispatch different actions, 
+                based on my actions, it will update the state variable.
+
+            once this state is updated, all the components who are using this state, will get re-rendered.
+
+            We will get update value.
+
+
+Community add, edit, delete and view,
+
+we immer, 
+
+we used context api, useReducer
+
+We save all info in variable.
